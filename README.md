@@ -1,5 +1,7 @@
 # Bidirektionales Labeling – von beiden Enden rechnen, in der Mitte verbinden – Streamlit-Demo
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-bidirektional-labeling-demo.streamlit.app/)**
+
 Demo der Reihe „Ressourcenwege und Spaltenerzeugung“ in der „Konzepte“-Reihe der Website „Sebastian Hanisch – Operations Research und Machine Learning“. Sie zeigt, was die zweite Richtung am **Labeling** des Pricings ändert: Neben dem Vorwärtslabeling vom Depot aus (mit Zeit, Last und Dominanz, wie in den früheren Demos der Reihe) wachsen Labels vom **Ende des Zeithorizonts rückwärts**, beide Seiten nur bis zu einem **Halbweg** in der Zeit, und in der Mitte werden passende Hälften **verbunden**. Gefragt ist, wie viele Labels das spart, wo der beste Halbweg liegt, was das Verbinden kostet und warum eine einfache dynamische Wahl des Halbwegs gegenüber dem festen Halbweg H/2 hier nichts gewinnt. Als Anwendung im Pricing einer Tourenplanung mit einseitigem Labeling siehe [crew-pairing-demo](https://github.com/sebastian-hanisch/crew-pairing-demo).
 
 Von `hub-labeling-demo` (Kürzeste-Wege-Linie, Hub-Labels für Abstandsabfragen) und von `bidirectional-demo` (bidirektionale Dijkstra-Suche ohne Ressourcen; dort geht es um den Abbruch der Suche) ist diese Demo verschieden: Hier gibt es Ressourcengrenzen (Zeit, Last), negative Längen aus Dualpreisen, Dominanz in beiden Richtungen und eine Verbindung mit getrennten Gedächtnissen. Keine Zahl der beiden Demos wird hier verwendet.
