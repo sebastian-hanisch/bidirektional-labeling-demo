@@ -1,0 +1,73 @@
+{
+ "laeufe": 480,
+ "pool": {
+  "fest0.25": {
+   "n": 480,
+   "median": 0.6462940732733944,
+   "min": 0.12653421633554085,
+   "max": 2.217391304347826,
+   "weniger": 404
+  },
+  "fest0.4": {
+   "n": 480,
+   "median": 0.3107942438880526,
+   "min": 0.10600414078674948,
+   "max": 0.9342625338048679,
+   "weniger": 480
+  },
+  "fest0.5": {
+   "n": 480,
+   "median": 0.28258662813409974,
+   "min": 0.09726573074989364,
+   "max": 0.7224270126806251,
+   "weniger": 480
+  },
+  "fest0.6": {
+   "n": 480,
+   "median": 0.4127072728318522,
+   "min": 0.15380128329768616,
+   "max": 0.7795745244880377,
+   "weniger": 480
+  },
+  "fest0.75": {
+   "n": 480,
+   "median": 0.8191989808530991,
+   "min": 0.5014714537963508,
+   "max": 0.9831635834545832,
+   "weniger": 480
+  },
+  "dyn": {
+   "n": 480,
+   "median": 1.249595498241188,
+   "min": 0.38186266379167355,
+   "max": 1.8067836257309942,
+   "weniger": 89
+  },
+  "dynF": {
+   "n": 480,
+   "median": 0.7739842496077753,
+   "min": 0.30533670592138,
+   "max": 1.3992994746059544,
+   "weniger": 414
+  },
+  "dynB": {
+   "n": 480,
+   "median": 0.7900798338382927,
+   "min": 0.28123620309050773,
+   "max": 1.4429371866705987,
+   "weniger": 408
+  },
+  "dynD": {
+   "n": 480,
+   "median": 0.6623432923292918,
+   "min": 0.24670467502850627,
+   "max": 1.2846680464894125,
+   "weniger": 451
+  }
+ },
+ "bester_fester_median": 0.26495385839989816,
+ "dynd_besser_als_fest": 0,
+ "paare_je_label": 8.63823979281822,
+ "vergleiche": 0.21342649236324834,
+ "quelle": "Rohdateien out_v9_mess_*.txt der Vormessung (label-setting-planung/vormessung), mit tools/messreihe_baender.py frueher zusammengefasst; Instanzen mit Pythons random.Random, andere Dualpreise; nicht neu gerechnet"
+}
